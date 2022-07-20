@@ -1,0 +1,24 @@
+.navbar{
+    background-color: $colorPrincipal;
+    margin: 10px;
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: end;
+        padding: 10px;
+        margin: 10px;
+        li{
+            padding: 10px;
+            a{
+                text-decoration: none;
+                color: #FFF8E0;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                opacity: .80;
+                &:hover{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

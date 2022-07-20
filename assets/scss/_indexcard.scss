@@ -1,0 +1,22 @@
+.indexcard{
+    background-color: $colorSecundario;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin: 10px;
+    h5{
+        font-size: $tamanioTituloh5;
+    }
+    p{
+      font-size: $tamanioTexto;
+    }
+    button{
+        border:0;
+        border-radius: 5px;
+        padding: 8px 15px;
+        background-color: $colorBotones;
+        color: black;
+        &:hover{
+            background-color: $colorHover;
+        }
+    }
+}

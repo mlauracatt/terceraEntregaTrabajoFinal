@@ -1,0 +1,42 @@
+.cards{
+    background-color: #EDA0A8;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin: 10px;
+    .card__title{
+        text-align: center;
+    }
+    .card__img{
+        width: 50%;
+        align-items:center;
+    }
+    .body__img{
+        width: 1900px;
+    }
+    h1{
+        text-align:left;
+        margin: 10px;
+        padding: 10px;
+        color:black;
+    }
+    h2{
+        text-align:left;
+        margin: 10px;
+        padding: 10px;
+        color:black;
+    }
+    h3{
+        text-align:left;
+        margin: 10px;
+        padding: 10px;
+        color:black; 
+    }
+    p{
+        text-align:left;
+        margin: 20px;
+        padding: 10px;
+        color:rgb(247, 243, 243);
+        text-size-adjust:initial;
+    }
+}
+    

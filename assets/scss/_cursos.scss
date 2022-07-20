@@ -1,0 +1,17 @@
+.cursosCards{
+    background-color: #EDA0AB;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin: 10px;
+    button {
+        border: 0;
+        border-radius: 5px;
+        padding: 8px 15px;
+        background-color: #FFF8E0;
+        color: black;
+        &:hover{
+            background-color: $colorHover;
+        }
+    }
+}
+  
